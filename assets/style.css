@@ -309,6 +309,63 @@ nav ul li a {
     margin-top: 10px;
 }
 
+/* play instantly section */
+.play {
+    margin: 120px 69px;
+}
+
+.play-instantly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.play-content {
+    width: 353px;
+    text-align: right;
+}
+
+.play-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.pink {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-description {
+    color: #534C64;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.play-img {
+    position: relative;
+    width: 634.833px;
+    height: 650px;
+}
+
+.play-img img {
+    height: 100%;
+    width: 80%;
+    margin-left: 180px;
+}
+
+.sub-img {
+    width: 318.5px;
+    height: 365.083px;
+    border-radius: 8px;
+    /* border: 10px solid #FFF; */
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+}
 
 
 
@@ -327,7 +384,8 @@ nav ul li a {
     nav ul,
     .banner-display,
     .gamer,
-    .games-item {
+    .games-item,
+    .play-instantly {
         flex-direction: column;
     }
 
@@ -401,6 +459,33 @@ nav ul li a {
         margin-bottom: 30px;
     }
 
+    .play-instantly {
+        /* align-items: center; */
+    }
+
+    .play-content {
+        width: 100%;
+        text-align: center;
+        padding-left: 90px; 
+    }
+
+    .play-img img {
+        height: 100%;
+        width: 60%;
+        margin-left: 100px;
+        /* margin-left: 180px; */
+    }
+    
+    .sub-img {
+        width: 318.5px;
+        height: 365.083px;
+        border-radius: 8px;
+        /* border: 10px solid #FFF; */
+        position: absolute;
+        bottom: -100px;
+        left: 0px;
+    }
+
 
 }
 
@@ -416,7 +501,8 @@ nav ul li a {
     nav,
     nav ul,
     .banner-display,
-    .gamer {
+    .gamer,
+    .play-instantly {
         flex-direction: column;
     }
 
@@ -494,5 +580,12 @@ nav ul li a {
 
     .game-description {
         margin-bottom: 30px;
+    }
+
+    .play-img img {
+        height: 100%;
+        width: 60%;
+        margin-left: 200px;
+        /* margin-left: 180px; */
     }
 }
