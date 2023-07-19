@@ -51,7 +51,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 54px 70px;
+    padding: 54px 69px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -104,22 +104,27 @@ nav ul li a {
 .banner {
     /* margin-left: 150px;
     margin-right: 150px; */
+    margin-bottom: -7.5px;
 }
+
 .banner-display {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
+
 .banner-content {
     background-image: url("./images/Group\ 14.png");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 }
+
 .banner-text-content {
     padding: 100px 280px 100px 100px;
 }
+
 .banner-img {
     width: 40%;
     height: auto;
@@ -162,9 +167,11 @@ nav ul li a {
     font-size: 20px;
     font-weight: 500;
 }
+
 .button {
     margin-top: 42px;
 }
+
 .btn-pink {
     background: #FF42A5;
 }
@@ -172,6 +179,52 @@ nav ul li a {
 .btn-blue {
     background: #4EC5F7;
     /* margin-left: 24px; */
+}
+
+/* gamer section */
+
+.gamer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin: 0px 69px;
+}
+
+.gamer-img {}
+
+.gamer-content {
+    width: 500px;
+    text-align: right;
+    padding-right: 60px;
+}
+
+.gradient-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.purpose-description {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+
+.purpose-title {
+    color: #534C64;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0;
 }
 
 
@@ -188,7 +241,8 @@ nav ul li a {
 
     nav,
     nav ul,
-    .banner-display {
+    .banner-display,
+    .gamer {
         flex-direction: column;
     }
 
@@ -204,15 +258,19 @@ nav ul li a {
         font-size: 50px;
         margin-bottom: 5px;
     }
+
     .banner-item {
         margin-bottom: 8px;
     }
+
     .banner-item p {
         font-size: 12px;
     }
+
     .button {
         margin-top: 5px;
     }
+
     .btn {
         padding: 15px 15px;
         border-radius: 48px;
@@ -223,6 +281,7 @@ nav ul li a {
     .banner-img {
         width: 60%;
     }
+
     #banner-order-1 {
         order: 2;
     }
@@ -234,7 +293,20 @@ nav ul li a {
     nav ul li {
         margin-top: 36px;
     }
-
+    .gamer {
+        background: unset;
+    }
+    .gamer-content {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .purpose-title {
+        font-size: 18px;
+    }
+    .gamer-img {
+        width: 100%;
+    }
 
 }
 
@@ -249,7 +321,8 @@ nav ul li a {
 
     nav,
     nav ul,
-    .banner-display {
+    .banner-display,
+    .gamer {
         flex-direction: column;
     }
 
@@ -273,15 +346,19 @@ nav ul li a {
         font-size: 60px;
         margin-bottom: 5px;
     }
+
     .banner-item {
         margin-bottom: 8px;
     }
+
     .banner-item p {
         font-size: 16px;
     }
+
     .button {
         margin-top: 35px;
     }
+
     .btn {
         padding: 15px 30px;
         border-radius: 48px;
@@ -295,5 +372,20 @@ nav ul li a {
 
     #banner-order-2 {
         order: 1;
+    }
+    .gamer {
+        background: unset;
+    }
+    .gamer-content {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .purpose-title {
+        font-size: 24px;
+    }
+    .gamer-img {
+        width: 100%;
     }
 }
