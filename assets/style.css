@@ -404,7 +404,7 @@ nav ul li a {
 
 /* games types */
 .game-types {
-    margin-bottom: 120px;
+    margin-bottom: 80px;
     margin-left: 69px;
     margin-right: 69px;
 }
@@ -442,6 +442,99 @@ nav ul li a {
     border: 1px solid #ff42a5;
     color: #ff42a5;
 }
+
+/* footer section */
+
+footer {
+    text-align: center;
+    background: #0B0223;
+    margin: 0;
+    color: #fff;
+}
+
+.footer-content {
+    padding: 120px 0px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-title .logo {
+    width: 86.041px;
+    height: 40px;
+}
+
+.footer-title .logo-title {
+    color: #fff;
+}
+
+.footer-nav {
+    margin: 25px 0px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.footer-img {
+    margin: 30px 0px;
+}
+
+.footer-img ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.footer-img ul li i {
+    font-size: 25px;
+    transition: 0.8s;
+}
+
+.footer-img ul li i:hover {
+    font-size: 32px;
+}
+
+.footer-policy {
+    margin-bottom: 20px;
+}
+
+.footer-policy ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.footer-policy ul li {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
 
 /* responsive */
 
@@ -619,6 +712,24 @@ nav ul li a {
         font-size: 10px;
         font-weight: 600;
     }
+    footer {
+        padding: 20px;
+    }
+    .footer-nav ul {
+        gap: 30px;
+    }
+
+    .footer-img ul li{
+        padding: 0px 35px;
+    }
+
+    .footer-policy ul{
+        gap: 20px;
+    }
+
+    .copy {
+        margin-top: 60px;
+    }
 
 }
 
@@ -773,5 +884,9 @@ nav ul li a {
     .item-description {
         font-size: 16px;
         font-weight: 600;
+    }
+
+    .footer-nav ul {
+        gap: 40px;
     }
 }
